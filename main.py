@@ -144,7 +144,7 @@ def index():
             'J': round(J, 3),
             'JJ': round(JJ, 3)
         }
-    
+
     # Retourne la page avec ou sans résultats
     return render_template_string(html_code, results=results)
 
